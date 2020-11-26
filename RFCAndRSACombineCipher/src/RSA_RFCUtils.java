@@ -84,7 +84,7 @@ public class RSA_RFCUtils extends RailFenceCipher
 		// System.out.println("RSA Encrypted:" + rsa_encryptedText);
 
 		String rfcE = getRFCEncryptedData(rsa_encryptedText, numrails);
-		System.out.println("RFC_RSA Encrypted:" + rfcE);
+		System.out.println("RFC_RSA Encrypted Ciphertext:" + rfcE);
 
 		return rfcE;
 	}
